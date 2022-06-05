@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #1c4e80;
+}
+
+.heading {
+    text-align: center;
+    margin: 25px 0;
+    font-size: 1.6rem;
+    font-weight: 500;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #f1f1f1;
+    font-style: bold;
+}
+.container {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    box-sizing: border-box;
+    background-color:#f1f1f1;
+}
+
+.container iframe {
+    margin-top: 2%;
+    border-radius: 7px;
+    margin-bottom: 2%;
+    transition: 0.2s;
+}
+
+.container iframe:hover {
+    box-shadow: 0px 0px 5px 1px rgb(50, 50, 126);
+}
